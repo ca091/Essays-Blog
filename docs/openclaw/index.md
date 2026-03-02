@@ -5,3 +5,4 @@ NanoClaw 会话记录与输出文档。
 ## 文档列表
 
 - [OpenClaw Output](./openclaw-output) - test openclaw output
+- [如何创建 OpenClaw Skill](./how-to-create-openclaw-skill) - 完整的 Skill 创建教程
