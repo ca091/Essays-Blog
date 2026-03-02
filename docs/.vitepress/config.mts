@@ -8,12 +8,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Claude Code', link: '/cc/claude-code-commands' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '指南',
+        items: [
+          { text: 'Claude Code 命令大全', link: '/cc/claude-code-commands' }
+        ]
+      },
+      {
+        text: '示例',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
@@ -22,7 +28,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/caoqi/Essays-Blog' }
     ]
   },
   base: '/Essays-Blog/'

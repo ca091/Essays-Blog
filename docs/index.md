@@ -4,29 +4,25 @@ layout: home
 
 hero:
   name: "Essays Blog"
-  text: "Essays Blog Site"
-  tagline: My great project tagline
+  text: "思考与记录"
+  tagline: 代码、技术与生活的随笔集
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /cc/claude-code-commands
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: https://github.com/caoqi/Essays-Blog
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🤖
+    title: Claude Code 指南
+    details: 会话管理、权限模式、插件生态、持续学习 - 完整的 Claude Code 使用手册
+    link: /cc/claude-code-commands
+  - icon: 📝
+    title: 技术笔记
+    details: 前端开发、工程实践、工具使用的技术沉淀
+  - icon: 💡
+    title: 思考碎片
+    details: 关于编程、产品、学习的零散思考与心得
 ---
-
-[Getting Test](./test/t1)
-
-<a href="test/t1.html" target="_self">Link to t1</a>
-
-[动态路由 dynamic/foo](./dynamic/foo)
-
-[动态路由 dynamic/bar](./dynamic/bar)
