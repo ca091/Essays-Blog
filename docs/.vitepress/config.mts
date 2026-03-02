@@ -19,6 +19,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'OpenClaw',
+        items: [
+          { text: 'OpenClaw 输出', link: '/openclaw/' },
+          { text: 'OpenClaw Output', link: '/openclaw/openclaw-output' }
+        ]
+      },
+      {
         text: '示例',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
