@@ -5,7 +5,7 @@
 
 ---
 
-## 二、会话管理命令
+## 一、会话管理命令
 
 | 命令 | 说明 | 示例 |
 |------|------|------|
@@ -16,7 +16,7 @@
 
 ---
 
-## 三、权限模式切换
+## 二、权限模式切换
 
 | 模式 | 说明 | 适用场景 |
 |------|------|---------|
@@ -27,9 +27,15 @@
 
 ---
 
-## 四、官方插件命令
+## 三、官方插件命令
 
-### 4.1 Git 工作流 (`commit-commands`)
+```shell
+/code-review:code-review
+/frontend-design
+/feature-dev:feature-dev
+```
+
+### 3.1 Git 工作流 (`commit-commands`)
 
 | 命令 | 说明 |
 |------|------|
@@ -37,15 +43,7 @@
 | `/commit-commands:push` | 推送到远程仓库 |
 | `/commit-commands:pr` | 创建 Pull Request |
 
-### 4.2 代码审查 (`pr-review-toolkit`)
-
-| 命令 | 说明 |
-|------|------|
-| `/pr-review:review` | 审查 PR 代码 |
-| `/pr-review:security` | 安全检查 |
-| `/pr-review:performance` | 性能分析 |
-
-### 4.3 LSP 代码智能
+### 3.2 LSP 代码智能
 
 | 插件 | 功能 |
 |------|------|
@@ -55,34 +53,26 @@
 
 ---
 
-## 五、Everything Claude Code 命令
+## 四、Everything Claude Code 命令
 
-### 5.1 核心开发命令
+### 4.1 核心开发命令
 
-| 命令 | 说明 | 使用场景 |
-|------|------|---------|
-| `/plan` | 功能实现规划 | 开发新功能前 |
-| `/tdd` | 测试驱动开发 | 先写测试再实现 |
-| `/code-review` | 代码质量审查 | 提交前审查 |
-| `/build-fix` | 修复构建错误 | npm build 报错时 |
-| `/refactor-clean` | 死代码清理 | 清理未使用代码 |
-| `/e2e` | E2E 测试生成 | 生成 Playwright 测试 |
+| 命令                                    | 说明 | 使用场景 |
+|---------------------------------------|------|---------|
+| `/everything-claude-code:learn`       | 功能实现规划 | 开发新功能前 |
+| `/everything-claude-code:tdd`          | 测试驱动开发 | 先写测试再实现 |
+| `/everything-claude-code:code-review` | 代码质量审查 | 提交前审查 |
+| `/everything-claude-code:build-fix`    | 修复构建错误 | npm build 报错时 |
+| `/everything-claude-code:refactor-clean`  | 死代码清理 | 清理未使用代码 |
+| `/everything-claude-code:e2e`           | E2E 测试生成 | 生成 Playwright 测试 |
 
-### 5.2 包管理器命令
+### 4.2 包管理器命令
 
 | 命令 | 说明 |
 |------|------|
 | `/setup-pm` | 配置包管理器 (npm/pnpm/yarn/bun) |
 
-### 5.3 Go 语言命令
-
-| 命令 | 说明 |
-|------|------|
-| `/go-review` | Go 代码审查 |
-| `/go-test` | Go TDD 工作流 |
-| `/go-build` | 修复 Go 构建错误 |
-
-### 5.4 持续学习命令
+### 4.3 持续学习命令
 
 | 命令 | 说明 |
 |------|------|
@@ -92,7 +82,7 @@
 | `/evolve` | 将相关直觉聚类到技能中 |
 | `/skill-create` | 从 git 历史生成技能 |
 
-### 5.5 PM2 多服务命令
+### 4.4 PM2 多服务命令
 
 | 命令 | 说明 |
 |------|------|
@@ -105,7 +95,7 @@
 
 ---
 
-## 七、插件管理命令
+## 五、插件管理命令
 
 | 命令 | 说明 | 示例 |
 |------|------|------|
@@ -120,7 +110,7 @@
 
 ---
 
-## 八、配置文件位置
+## 六、配置文件位置
 
 | 配置类型 | 文件路径 | 说明 |
 |---------|---------|------|
@@ -133,9 +123,9 @@
 
 ---
 
-## 九、推荐安装组合
+## 七、推荐安装组合
 
-### 9.1 必装插件
+### 7.1 必装插件
 
 ```bash
 # TypeScript 代码智能
@@ -151,7 +141,7 @@
 /plugin install everything-claude-code@everything-claude-code
 ```
 
-### 9.2 必装 MCP
+### 7.2 必装 MCP
 
 ```bash
 # 文档查询
@@ -163,7 +153,7 @@ claude mcp add playwright -- npx -y @playwright/mcp
 
 ---
 
-## 十、快捷技巧
+## 八、快捷技巧
 
 | 技巧 | 说明 |
 |------|------|
