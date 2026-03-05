@@ -13,16 +13,18 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '指南',
+        text: 'Claude Code',
         items: [
-          { text: 'Claude Code 命令大全', link: '/cc/claude-code-commands' }
+          { text: '命令大全', link: '/cc/claude-code-commands' }
         ]
       },
       {
         text: 'OpenClaw',
         items: [
-          { text: 'OpenClaw 输出', link: '/openclaw/' },
-          { text: 'OpenClaw Output', link: '/openclaw/openclaw-output' }
+          { text: '概述', link: '/openclaw/' },
+          { text: '创建 Skill 教程', link: '/openclaw/how-to-create-openclaw-skill' },
+          { text: '语音代理构建指南', link: '/openclaw/voice-agent-guide' },
+          { text: 'Discord 最佳实践', link: '/openclaw/openclaw-discord-best-practice' }
         ]
       },
       {
