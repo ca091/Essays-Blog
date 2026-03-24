@@ -12,7 +12,7 @@ hero:
       link: /cc/claude-code-commands
     - theme: alt
       text: GitHub
-      link: https://github.com/caoqi/Essays-Blog
+      link: https://github.com/ca091/Essays-Blog
 
 features:
   - icon: 🤖
