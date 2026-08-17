@@ -19,6 +19,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Git',
+        items: [
+          { text: 'Worktree 常用命令速查', link: '/git/git-worktree-cheatsheet' }
+        ]
+      },
+      {
         text: 'OpenClaw',
         items: [
           { text: '概述', link: '/openclaw/' },
