@@ -25,6 +25,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'AI 视频',
+        items: [
+          { text: 'MoneyPrinterTurbo 视频生成工作流', link: '/ai-video/moneyprinterturbo-video-generation-workflow' }
+        ]
+      },
+      {
         text: 'OpenClaw',
         items: [
           { text: '概述', link: '/openclaw/' },
