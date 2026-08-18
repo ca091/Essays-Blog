@@ -49,7 +49,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/caoqi/Essays-Blog' }
+      { icon: 'github', link: 'https://github.com/ca091/Essays-Blog' }
     ]
   },
   base: '/Essays-Blog/'
