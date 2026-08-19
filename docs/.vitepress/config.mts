@@ -31,6 +31,12 @@ export default defineConfig({
         ]
       },
       {
+        text: '英语学习',
+        items: [
+          { text: '提升英语阅读能力：网站选择与练习路径', link: '/language-learning/english-reading-websites' }
+        ]
+      },
+      {
         text: 'OpenClaw',
         items: [
           { text: '概述', link: '/openclaw/' },
