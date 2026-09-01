@@ -25,6 +25,12 @@ export default defineConfig({
         ]
       },
       {
+        text: '前端工程',
+        items: [
+          { text: '移动端键盘与 VisualViewport 排错', link: '/frontend-engineering/mobile-keyboard-visual-viewport-debugging' }
+        ]
+      },
+      {
         text: 'AI 视频',
         items: [
           { text: 'MoneyPrinterTurbo 视频生成工作流', link: '/ai-video/moneyprinterturbo-video-generation-workflow' }
