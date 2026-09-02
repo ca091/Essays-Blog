@@ -27,7 +27,8 @@ export default defineConfig({
       {
         text: '前端工程',
         items: [
-          { text: '移动端键盘与 VisualViewport 排错', link: '/frontend-engineering/mobile-keyboard-visual-viewport-debugging' }
+          { text: '移动端键盘与 VisualViewport 排错', link: '/frontend-engineering/mobile-keyboard-visual-viewport-debugging' },
+          { text: '网页设计灵感网站指南', link: '/frontend-engineering/web-design-inspiration-guide' }
         ]
       },
       {
