@@ -28,6 +28,7 @@ export default defineConfig({
         text: '前端工程',
         items: [
           { text: '移动端键盘与 VisualViewport 排错', link: '/frontend-engineering/mobile-keyboard-visual-viewport-debugging' },
+          { text: 'Nuxt 路由预加载编译排错', link: '/frontend-engineering/nuxt-dev-route-preload-compilation-debugging' },
           { text: '网页设计灵感网站指南', link: '/frontend-engineering/web-design-inspiration-guide' }
         ]
       },
@@ -49,7 +50,8 @@ export default defineConfig({
           { text: '概述', link: '/openclaw/' },
           { text: '创建 Skill 教程', link: '/openclaw/how-to-create-openclaw-skill' },
           { text: '语音代理构建指南', link: '/openclaw/voice-agent-guide' },
-          { text: 'Discord 最佳实践', link: '/openclaw/openclaw-discord-best-practice' }
+          { text: 'Discord 最佳实践', link: '/openclaw/openclaw-discord-best-practice' },
+          { text: 'Codex Harness 飞书接管与排错', link: '/openclaw/codex-harness-feishu-takeover' }
         ]
       },
       {
