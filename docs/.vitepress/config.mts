@@ -51,7 +51,7 @@ export default defineConfig({
           { text: '创建 Skill 教程', link: '/openclaw/how-to-create-openclaw-skill' },
           { text: '语音代理构建指南', link: '/openclaw/voice-agent-guide' },
           { text: 'Discord 最佳实践', link: '/openclaw/openclaw-discord-best-practice' },
-          { text: 'Codex Harness 飞书接管与排错', link: '/openclaw/codex-harness-feishu-takeover' }
+          { text: 'Codex Harness 飞书接管、旧线程续接与排错', link: '/openclaw/codex-harness-feishu-takeover' }
         ]
       },
       {
